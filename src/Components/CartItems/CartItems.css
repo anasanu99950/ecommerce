@@ -1,0 +1,117 @@
+/* General Styles */
+.cartitems {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 960px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cartitems-format-main, .cartitems-format {
+    display: grid;
+    grid-template-columns: auto 2fr 1fr 1fr 1fr auto;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .cartitems-format-main {
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .carticon-product-icon, .cartitems-remove-icon {
+    justify-self: center;
+  }
+  
+  .carticon-product-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .cartitems-remove-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cartitems-quantity {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f8f8f8;
+  }
+  
+  /* Totals and Checkout Button */
+  .cartitems-down {
+    padding-top: 20px;
+  }
+  
+  .cartitems-total, .cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .cartitems-total-item {
+    padding: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Promo Code Section */
+  .cartitems-promocode {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+  }
+  
+  .cartitems-promobox {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .cartitems-promobox input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cartitems-promobox button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cartitems-promobox button:hover {
+    background-color: #218838;
+  }
